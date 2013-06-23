@@ -1,6 +1,6 @@
 {
   "name": "xmpp-ftw-superfeedr",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "SuperFeedr plugin for XMPP-FTW",
   "main": "index.js",
   "directories": {

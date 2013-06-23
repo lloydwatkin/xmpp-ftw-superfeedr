@@ -27,7 +27,8 @@
     "url": "https://github.com/lloydwatkin/xmpp-ftw-superfeedr/issues"
   },
   "dependencies": {
-    "ltx": "*"
+    "ltx": "*",
+    "xmpp-ftw-item-parser": "*"
   },
   "devDependencies": {
     "mocha": "~1.8.1",

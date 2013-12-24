@@ -1,8 +1,7 @@
-var should  = require('should')
-  , Superfeedr = require('../../index')
-  , ltx     = require('ltx')
+'use strict';
+
+var Superfeedr = require('../../index')
   , helper  = require('../helper')
-  , xhtmlIm = require('xmpp-ftw').utils['xep-0071']
 
 describe('Superfeedr', function() {
 

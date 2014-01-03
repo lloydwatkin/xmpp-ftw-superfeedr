@@ -8,8 +8,8 @@ describe('Superfeedr', function() {
     var superfeedr, socket, xmpp, manager
 
     before(function() {
-        socket = new helper.Eventer()
-        xmpp = new helper.Eventer()
+        socket = new helper.SocketEventer()
+        xmpp = new helper.XmppEventer()
         manager = {
             socket: socket,
             client: xmpp,
@@ -23,5 +23,12 @@ describe('Superfeedr', function() {
         superfeedr = new Superfeedr()
         superfeedr.init(manager)
     })
+
+    beforeEach(function() {
+        socket.removeAllListeners()
+        xmpp.removeAllListeners()
+        superfeedr.init(manager)
+    })
+
 
 })

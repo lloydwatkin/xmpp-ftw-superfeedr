@@ -31,7 +31,7 @@
     "xmpp-ftw-item-parser": "1.x"
   },
   "devDependencies": {
-    "grunt": "~0.4.2",
+    "grunt": "~1.0.1",
     "grunt-cli": "^0.1.13",
     "grunt-contrib-jshint": "~0.12.0",
     "grunt-mocha-cli": "~1.4.0",

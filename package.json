@@ -27,7 +27,7 @@
     "url": "https://github.com/xmpp-ftw/xmpp-ftw-superfeedr/issues"
   },
   "dependencies": {
-    "ltx": "2.2.0",
+    "ltx": "2.4.1",
     "xmpp-ftw-item-parser": "1.x"
   },
   "devDependencies": {

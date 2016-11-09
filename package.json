@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "ltx": "2.2.0",
-    "xmpp-ftw-item-parser": "1.x"
+    "xmpp-ftw-item-parser": "1.5.1"
   },
   "devDependencies": {
     "grunt": "~0.4.2",

@@ -27,17 +27,17 @@
     "url": "https://github.com/xmpp-ftw/xmpp-ftw-superfeedr/issues"
   },
   "dependencies": {
-    "ltx": "2.2.0",
+    "ltx": "2.7.1",
     "xmpp-ftw-item-parser": "1.x"
   },
   "devDependencies": {
-    "grunt": "~0.4.2",
-    "grunt-cli": "^0.1.13",
-    "grunt-contrib-jshint": "~0.12.0",
-    "grunt-mocha-cli": "~1.4.0",
-    "mocha": "~2.4.5",
-    "should": "~8.2.1",
-    "xmpp-ftw": "1.x"
+    "grunt": "~1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-jshint": "~1.1.0",
+    "grunt-mocha-cli": "~3.0.0",
+    "mocha": "~3.3.0",
+    "should": "~11.2.1",
+    "xmpp-ftw": "^2.0.0"
   },
   "peerDependencies": {
     "xmpp-ftw": "1.x"
